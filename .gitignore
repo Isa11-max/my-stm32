@@ -1,0 +1,44 @@
+# ===== STM32CubeMX 生成文件 =====
+# 由 .ioc 重新打开 CubeMX 时自动重新生成
+.mxproject
+
+# ===== Keil MDK-ARM 工程 =====
+# MDK-ARM 下的子目录都是自动生成的产物：
+#   <目标名>/    编译输出 (.o .d .axf .hex .map .htm .lnp .sct .dep 等)
+#   RTE/         Run-Time Environment 运行时环境
+#   DebugConfig/ 调试配置
+MDK-ARM/*/
+
+# 用户本地选项 / 界面布局（重新打开工程自动生成，含本机绝对路径）
+*.uvoptx
+*.uvguix
+*.uvguix.*
+
+# ===== 编译中间 / 输出文件（散落情况下兜底） =====
+*.o
+*.obj
+*.d
+*.crf
+*.lst
+*.lnp
+*.dep
+*.axf
+*.elf
+*.hex
+*.map
+*.htm
+*.build_log.htm
+*.scvd
+*.iex
+*.plg
+*.bak
+*.tmp
+
+# ===== 编辑器 / 系统 =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+Thumbs.db
+Desktop.ini
